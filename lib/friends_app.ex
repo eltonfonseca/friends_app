@@ -4,7 +4,7 @@ defmodule FriendsApp do
   end
 
   def my_environment do
-    case Mix.env do
+    case Mix.env() do
       :prod -> "Production Environment"
       :dev -> "Development Environment"
       :test -> "Test Environment"
