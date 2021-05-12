@@ -5,4 +5,8 @@ defmodule FriendsAppTest do
   test "greets the world" do
     assert FriendsApp.hello() == :world
   end
+
+  test "environment" do
+    assert FriendsApp.my_environment() == "Test Environment"
+  end
 end
