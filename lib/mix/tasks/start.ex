@@ -3,6 +3,6 @@ defmodule Mix.Tasks.Start do
 
   @shortdoc "Start the application"
   def run(_) do
-    IO.puts "Iniciando a Aplicação"
+    FriendsApp.CLI.Main.start_app()
   end
 end
