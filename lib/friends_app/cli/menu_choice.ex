@@ -9,7 +9,7 @@ defmodule FriendsApp.CLI.MenuChoice do
 
     menu_itens
       |> Enum.map(&(&1.label))
-      |> display_options
+      |> display_options()
   end
 
   defp display_options(options) do
